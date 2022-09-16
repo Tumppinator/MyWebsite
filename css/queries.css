@@ -74,7 +74,7 @@
     font-size: 2rem;
   }
   .about-me2 {
-    padding-bottom: 25rem;
+    padding-bottom: 10rem;
   }
 
   .javelin-archievements-item {
@@ -188,6 +188,7 @@
   .main-container {
     /* box-shadow: 0 0.1rem 1.6rem rgba(0, 0, 0, 0.5); */
     box-shadow: none;
+    /* padding-bottom: 0; */
   }
 
   .main-nav {
