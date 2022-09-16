@@ -96,6 +96,7 @@
   .social-media {
     padding-left: 3rem;
     padding-right: 7rem;
+    padding-bottom: 3rem;
   }
   .header-info {
     font-size: 6.4rem;
@@ -373,6 +374,10 @@
     /* margin: 0 auto; */
     max-height: 80rem;
     max-width: 40rem;
+  }
+
+  .ai-art-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .header-info {
