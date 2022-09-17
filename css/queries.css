@@ -404,6 +404,10 @@
     width: 100%;
   }
 
+  .openbrush-art::after {
+    width: 90%;
+  }
+
   .controls-container {
     max-width: 32rem;
     padding-left: 1rem;
@@ -478,6 +482,12 @@
   .profile-picture {
     height: 12rem;
   }
+  .openbrush-art {
+    font-size: 4.6rem;
+  }
+  .openbrush-art::after {
+    width: 85%;
+  }
   .main-header {
     padding-left: 1.8rem;
   }
@@ -523,22 +533,23 @@
 /**************************/
 
 @media (max-width: 27rem) {
-  html {
-    /* font-size: 40%; */
-  }
   canvas {
     /* margin: 0 auto; */
     max-height: 78rem;
     max-width: 32rem;
   }
   .openbrush-art {
-    font-size: 4.4rem;
+    font-size: 4.2rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-bottom: 4rem;
+    padding-bottom: 14rem;
   }
   .openbrush-art::after {
-    width: 90%;
+    width: 100%;
+  }
+
+  .openbrush-controls-title {
+    font-size: 2.6rem;
   }
   .openbrush-model1 {
     font-size: 3.2rem;
