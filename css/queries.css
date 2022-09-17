@@ -192,6 +192,11 @@
     /* padding-bottom: 0; */
   }
 
+  .profile-picture2 {
+    /* height: 30rem; */
+    width: 60%;
+  }
+
   .main-nav {
     background-color: #333;
     position: absolute;
@@ -291,6 +296,11 @@
     max-height: 76rem;
     max-width: 50rem;
   }
+
+  .profile-picture2 {
+    /* height: 30rem; */
+    width: 70%;
+  }
   .openbrush-art::after {
     width: 75%;
   }
@@ -313,7 +323,10 @@
   .grid--2-cols {
     grid-template-columns: repeat(1, 1fr);
   }
-
+  .profile-picture2 {
+    /* height: 30rem; */
+    width: 80%;
+  }
   .header-info {
     font-size: 5.6rem;
   }
@@ -342,6 +355,11 @@
 @media (max-width: 38em) {
   audio {
     max-width: 30rem;
+  }
+
+  .profile-picture2 {
+    /* height: 30rem; */
+    width: 90%;
   }
 
   .header-info {
@@ -375,14 +393,15 @@
 /**************************/
 
 @media (max-width: 34em) {
-  html {
-    /* 8px / 16px = 0.5 = 50% */
-    /* font-size: 50%; */
-  }
   canvas {
     /* margin: 0 auto; */
     max-height: 80rem;
     max-width: 40rem;
+  }
+
+  .profile-picture2 {
+    /* height: 30rem; */
+    width: 100%;
   }
 
   .controls-container {
