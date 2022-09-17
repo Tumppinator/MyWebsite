@@ -160,10 +160,6 @@
 /**************************/
 
 @media (max-width: 59em) {
-  html {
-    /* 8px / 16px = 0.5 = 50% */
-    /* font-size: 50%; */
-  }
   .nav-header {
     box-shadow: inset 0rem 1.1rem 0.8rem -1.7rem #fff,
       inset 0rem -0.5rem 0.8rem -1.1rem #333;
@@ -187,13 +183,10 @@
   }
 
   .main-container {
-    /* box-shadow: 0 0.1rem 1.6rem rgba(0, 0, 0, 0.5); */
     box-shadow: none;
-    /* padding-bottom: 0; */
   }
 
   .profile-picture2 {
-    /* height: 30rem; */
     width: 60%;
   }
 
@@ -213,8 +206,6 @@
     justify-content: center;
     transition: all 0.5s ease-in;
 
-    /* Hide navigation */
-    /* display: none; */
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
@@ -246,6 +237,7 @@
   .main-nav-list {
     flex-direction: column;
     gap: 3.8rem;
+    padding-top: 4rem;
   }
 
   .main-container {
@@ -286,19 +278,13 @@
   audio {
     max-width: 45rem;
   }
-  /* .video-gallery-container {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  } */
 
   canvas {
-    /* margin: 0 auto; */
     max-height: 76rem;
     max-width: 50rem;
   }
 
   .profile-picture2 {
-    /* height: 30rem; */
     width: 70%;
   }
   .openbrush-art::after {
@@ -324,7 +310,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .profile-picture2 {
-    /* height: 30rem; */
     width: 80%;
   }
   .header-info {
@@ -369,7 +354,7 @@
 
   .header-description {
     font-size: 1.9rem;
-    /* padding-left: 0rem; */
+
     margin-left: 1.6rem;
   }
 
@@ -400,7 +385,6 @@
   }
 
   .profile-picture2 {
-    /* height: 30rem; */
     width: 100%;
   }
 
@@ -430,19 +414,14 @@
   }
   .header-description {
     font-size: 1.9rem;
-    /* padding-left: 0rem; */
+
     margin-left: 0.2rem;
   }
 
   .audio-text {
     padding-left: 7rem;
-    /* padding-right: 14rem; */
   }
 
-  /* .container {
-    padding-left: 0rem;
-    padding-right: 0rem;
-  } */
   .gameprojects-container {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -496,12 +475,11 @@
   }
   .header-description {
     font-size: 1.7rem;
-    /* padding-left: 0rem; */
+
     margin-left: 0.2rem;
   }
   .audio-text {
     padding-left: 4rem;
-    /* padding-right: 14rem; */
   }
 
   .social-media {
@@ -522,7 +500,6 @@
   }
 
   canvas {
-    /* margin: 0 auto; */
     max-height: 75rem;
     max-width: 35rem;
   }
@@ -534,7 +511,6 @@
 
 @media (max-width: 27rem) {
   canvas {
-    /* margin: 0 auto; */
     max-height: 78rem;
     max-width: 32rem;
   }
@@ -569,7 +545,6 @@
   }
   .audio-text {
     padding-left: 1.4rem;
-    /* padding-right: 8rem; */
   }
   .piano-improvs {
     padding-left: 3rem;
@@ -581,7 +556,7 @@
   }
   .header-description {
     font-size: 1.7rem;
-    /* padding-left: 0rem; */
+
     margin-left: 0.2rem;
   }
   .main-header {

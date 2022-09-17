@@ -1,16 +1,3 @@
-/* html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: radial-gradient(#efefef, #cccccc);
-} */
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -22,9 +9,7 @@ body {
 
 .openbrush-art {
   font-size: 5.2rem;
-  /* text-shadow: 4px 4px 5px #cf711f; */
 
-  /* background-color: orange; */
   text-align: center;
   padding-bottom: 18rem;
   padding-top: 10.2rem;
@@ -42,13 +27,11 @@ body {
 }
 
 .controls-container {
-  /* 1140px */
   max-width: 50rem;
   padding: 2rem 2rem 2rem 2rem;
   margin: 0 auto;
   background-color: #0f0f0f;
   box-shadow: 0 0.1rem 1.6rem rgba(0, 0, 0, 0.5);
-  /* text-align: center; */
   border-style: dotted;
   border-color: #7c4413;
 }
@@ -80,19 +63,15 @@ body {
 
 .openbrush-model1 {
   font-size: 3.8rem;
-  /* background-color: orange; */
   text-align: center;
   padding-bottom: 4rem;
-  /* padding-top: 10.2rem; */
   color: #ddd;
 }
 .openbrush-model2 {
   font-size: 3.8rem;
-  /* background-color: orange; */
   text-align: center;
   padding-bottom: 4rem;
   padding-top: 8rem;
-  /* padding-top: 10.2rem; */
   color: #ddd;
 }
 
@@ -106,10 +85,4 @@ canvas {
   max-width: 140rem;
   max-height: 70rem;
   padding-bottom: 5rem;
-  /* color: #000; */
-  /* position: absolute; */
-  /* left: 0; */
-  /* top: 0; */
-  /* right: 0; */
-  /* bottom: 0; */
 }

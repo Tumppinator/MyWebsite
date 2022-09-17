@@ -12,7 +12,6 @@
   height: 15.6rem;
   padding: 0 3rem;
   gap: 2rem;
-  /* position: relative; */
 }
 
 .nav-header {
@@ -69,38 +68,6 @@
   display: none;
 }
 
-/* .main-nav-link:link,
-.main-nav-link:visited {
-  display: inline-block;
-  text-decoration: none;
-  color: #ddd;
-  font-weight: 400;
-  font-size: 1.8rem;
-  transition: all 0.3s;
-} */
-
-/* .main-nav-link:hover,
-.main-nav-link:active {
-  color: #cf711f;
-} */
-
-/* .main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
-  border-radius: 9px;
-  color: #ddd;
-  background-color: #e67e22;
-} */
-
-/* .main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
-  background-color: #cf711f;
-} */
-
-/**************************/
-/*  */
-/**************************/
-
 .profile-picture {
   height: 10.5rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -113,36 +80,25 @@
   width: 50%;
   padding-top: 10rem;
   padding-bottom: 3rem;
-  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075); */
 }
 
 .vr-gameprojects-header {
   font-size: 4.2rem;
-  /* background-color: orange; */
   text-align: center;
   padding-bottom: 4rem;
   padding-top: 10.2rem;
   color: #ddd;
-  /* background-color: #1f1f1f; */
 }
 
 .gameprojects-header {
   font-size: 5.2rem;
-  /* background-color: orange; */
   text-align: center;
   padding-bottom: 4rem;
   padding-top: 15rem;
   color: #ddd;
-  /* background-color: #1f1f1f; */
 }
 
-/* .video-gallery-container { */
-/* width: 100%; */
-/* align-items: center; */
-/* } */
-
 .gameprojects-video-gallery {
-  /* width: 120%; */
   display: grid;
   padding-bottom: 2rem;
   gap: 2rem;
@@ -153,7 +109,6 @@
   height: 0;
   overflow: hidden;
   padding-top: 56.25%;
-  /* padding-top: 100%; */
   padding-bottom: 3rem;
 }
 
@@ -182,14 +137,10 @@
 }
 
 .sports-gallery {
-  /* display: grid; */
-
   width: 140%;
   transform: translate(-16%, 0);
   overflow-x: visible;
-  /* grid-template-columns: repeat(3, 1fr); */
   gap: 1.6rem;
-  /* padding: 1.6rem; */
   padding-bottom: 0rem;
   align-items: center;
 }
@@ -200,7 +151,6 @@
 
 .midjourney-art {
   font-size: 4.2rem;
-  /* background-color: orange; */
   text-align: center;
   padding-bottom: 4rem;
   padding-top: 10.2rem;
@@ -208,16 +158,11 @@
 }
 .dalle2-art {
   font-size: 4.2rem;
-  /* background-color: orange; */
   text-align: center;
   padding-bottom: 4rem;
   padding-top: 10.2rem;
   color: #ddd;
 }
-
-/* .navbar-default .navbar-nav > li > a.active {
-  color: #ddd;
-} */
 
 .navbar-button:hover,
 a.active {
@@ -242,7 +187,6 @@ a.active {
   padding-left: 18rem;
   padding-right: 18rem;
   padding-bottom: 2rem;
-  /* padding: 0 0 14rem 14rem; */
 
   margin: 0 auto;
   font-size: 1.4rem;
@@ -259,19 +203,14 @@ a.active {
   max-width: 100rem;
   padding-left: 18rem;
   padding-right: 14rem;
-  /* padding-bottom: 4rem; */
   margin: 0 auto;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .fa {
   padding: 1rem;
   margin: 0 0.4rem;
   text-align: center;
-  /* margin: 5px 2px; */
   font-size: 3rem;
-  /* width: 5rem; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 1rem;
 }
@@ -327,7 +266,6 @@ video {
   list-style: none;
   display: flex;
   flex-direction: column;
-  /* align-items: center;s */
   gap: 1.6rem;
   padding-bottom: 3.2rem;
 }
@@ -342,9 +280,6 @@ video {
   font-size: 2rem;
   text-align: left;
   padding-left: 12rem;
-  /* text-align: left; */
-  /* padding-right: 48rem; */
-  /* margin-right: 25rem; */
   padding-bottom: 1.4rem;
 }
 
@@ -354,7 +289,6 @@ video {
   padding-right: 14rem;
   padding-bottom: 2rem;
 
-  /* padding: 0 0 14rem 14rem; */
   margin: 0 auto;
   font-size: 1.4rem;
   line-height: 2.2rem;
@@ -398,7 +332,6 @@ video {
   padding-left: 14rem;
   padding-right: 14rem;
   padding-bottom: 2rem;
-  /* padding: 0 0 14rem 14rem; */
 
   margin: 0 auto;
   font-size: 1.4rem;
@@ -411,7 +344,6 @@ video {
   padding-left: 14rem;
   padding-right: 14rem;
   padding-bottom: 0.6rem;
-  /* padding: 0 0 14rem 14rem; */
 
   margin: 0 auto;
   font-size: 1.4rem;
@@ -452,33 +384,3 @@ video {
   padding-top: 0rem;
   padding-bottom: 2.8rem;
 }
-
-/* audio::-webkit-media-controls-panel
-
-audio::-webkit-media-controls-mute-button
-
-audio::-webkit-media-controls-play-button
-
-audio::-webkit-media-controls-timeline-container
-
-audio::-webkit-media-controls-current-time-display
-
-audio::-webkit-media-controls-time-remaining-display
-
-audio::-webkit-media-controls-timeline
-
-audio::-webkit-media-controls-volume-slider-container
-
-audio::-webkit-media-controls-volume-slider
-
-audio::-webkit-media-controls-seek-back-button
-
-audio::-webkit-media-controls-seek-forward-button
-
-audio::-webkit-media-controls-fullscreen-button
-
-audio::-webkit-media-controls-rewind-button
-
-audio::-webkit-media-controls-return-to-realtime-button
-
-audio::-webkit-media-controls-toggle-closed-captions-button */
