@@ -294,6 +294,15 @@
   .openbrush-art::after {
     width: 75%;
   }
+  .controls-container {
+    max-width: 40rem;
+  }
+  .controls-list {
+    padding-left: 6rem;
+  }
+  .openbrush-controls-title {
+    padding-left: 4rem;
+  }
 }
 
 /**************************/
@@ -376,6 +385,18 @@
     max-width: 40rem;
   }
 
+  .controls-container {
+    max-width: 32rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .controls-list {
+    padding-left: 3.4rem;
+  }
+  .openbrush-controls-title {
+    padding-left: 1.6rem;
+  }
+
   .ai-art-gallery {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -456,6 +477,19 @@
 
   .social-media {
     padding-left: 3rem;
+  }
+
+  .controls-container {
+    max-width: 28rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .controls-list {
+    padding-left: 3.4rem;
+  }
+  .openbrush-controls-title {
+    padding-left: 1.6rem;
+    padding-bottom: 1.4rem;
   }
 
   canvas {
