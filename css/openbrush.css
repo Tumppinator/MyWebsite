@@ -30,6 +30,8 @@
   max-width: 50rem;
   padding: 2rem 2rem 2rem 2rem;
   margin: 0 auto;
+  margin-bottom: 4rem;
+
   background-color: #0f0f0f;
   box-shadow: 0 0.1rem 1.6rem rgba(0, 0, 0, 0.5);
   border-style: dotted;
@@ -64,7 +66,8 @@
 .openbrush-model1 {
   font-size: 3.8rem;
   text-align: center;
-  padding-bottom: 4rem;
+  /* padding-bottom: 2rem; */
+  padding-top: 8rem;
   color: #ddd;
 }
 .openbrush-model2 {
