@@ -1,0 +1,119 @@
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+--- 02 COLORS
+
+- Accents:
+- Greys
+
+#888
+#767676 (lightest grey allowed on #fff)
+#6f6f6f (lightest grey allowed on #fdf2e9)
+#c7c7c7
+#ddd
+#555
+#333
+#1f1f1f
+#1a1a1a
+#141414
+#0f0f0f
+#cf711f
+#e67e22
+#
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open+Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #1a1a1a;
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0rem 14rem 0rem 14rem;
+  /* padding-top: 0rem;
+  padding-bottom: 4.4rem; */
+  margin: 0 auto;
+  background-color: #1a1a1a;
+}
+
+.gameprojects-container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0rem 14rem 0rem 14rem;
+  /* padding-top: 0rem;
+    padding-bottom: 4.4rem; */
+  margin: 0 auto;
+  background-color: #1a1a1a;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.main-container {
+  /* 1140px */
+  max-width: 140rem;
+  margin: 0 auto;
+  margin-top: 4.4rem;
+  margin-bottom: 4.4rem;
+  padding-bottom: 4rem;
+  background-color: #1a1a1a;
+  box-shadow: 0 0.1rem 1.6rem rgba(0, 0, 0, 0.5);
+}
+
+.vr-art-container {
+  max-width: 140rem;
+  margin: 0 auto;
+  margin-top: 4.4rem;
+  margin-bottom: 4.4rem;
+  background-color: #1a1a1a;
+  box-shadow: 0 0.1rem 1.6rem rgba(0, 0, 0, 0.5);
+}
+
+.header-info {
+  display: flex;
+  gap: 4.8rem;
+  color: #ddd;
+  font-size: 4.4rem;
+  font-weight: 700;
+  padding-bottom: 1.2rem;
+}
+
+.header-description {
+  color: #c7c7c7;
+  font-size: 2rem;
+  padding-left: 0.4rem;
+}
